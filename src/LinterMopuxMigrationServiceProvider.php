@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Pardalsalcap\LinterMopuxMigration;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Pardalsalcap\LinterMopuxMigration\Commands\LinterMopuxMigrationCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LinterMopuxMigrationServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('linter-mopux-migration')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_linter-mopux-migration_table')
+            ->hasCommand(LinterMopuxMigrationCommand::class);
     }
 }

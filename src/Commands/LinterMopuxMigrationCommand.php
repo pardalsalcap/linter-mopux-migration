@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Pardalsalcap\LinterMopuxMigration\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LinterMopuxMigrationCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'linter-mopux-migration';
 
     public $description = 'My command';
 
