@@ -2,9 +2,9 @@
 
 namespace Pardalsalcap\LinterMopuxMigration;
 
+use Pardalsalcap\LinterMopuxMigration\Commands\LinterMopuxMigrationCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Pardalsalcap\LinterMopuxMigration\Commands\LinterMopuxMigrationCommand;
 
 class LinterMopuxMigrationServiceProvider extends PackageServiceProvider
 {
